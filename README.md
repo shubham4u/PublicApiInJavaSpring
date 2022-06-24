@@ -1,3 +1,3 @@
 # PublicApiInJavaSpring
 Spring Boot to Fetch public Api  
-Rename PublicApiInJava to apiFetching
+Rename PublicApiInJavaSpring to apiFetching
