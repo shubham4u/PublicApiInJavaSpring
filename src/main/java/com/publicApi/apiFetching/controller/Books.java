@@ -27,10 +27,10 @@ public class Books {
                     .connectTimeout(120000);
             String res = request.body();
             return new ResponseEntity<>(res, HttpStatus.OK);
-        }catch (Exception e){
-            e.printStackTrace();
-            return new ResponseEntity<>("Error!, Please try again", HttpStatus.INTERNAL_SERVER_ERROR);
-        }
+            }catch (Exception e){
+                e.printStackTrace();
+                return new ResponseEntity<>("Error!, Please try again", HttpStatus.INTERNAL_SERVER_ERROR);
+            }
         }
 
 //    @GetMapping
